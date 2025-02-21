@@ -1,7 +1,6 @@
 import "./App.css";
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import AppLayout from "./components/Layout/AppLayout";
-
 import ErrorPage from "./components/Pages/ErrorPage";
 import Home from "./components/Pages/Home";
 import About from "./components/Pages/About";
@@ -38,9 +37,7 @@ const router = createBrowserRouter([
     ],
   },
 ]);
-
 const App = () => {
   return <RouterProvider router={router} />;
 };
-
 export default App;
