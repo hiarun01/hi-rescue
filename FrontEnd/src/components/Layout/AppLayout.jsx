@@ -5,9 +5,11 @@ import Header from "../UI/Header";
 const AppLayout = () => {
   return (
     <>
-      <Header />
-      <Outlet />
-      <Footer /> 
+      <div className=" ">
+        <Header />
+        <Outlet />
+        <Footer />
+      </div>
     </>
   );
 };
