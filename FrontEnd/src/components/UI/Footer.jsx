@@ -192,15 +192,6 @@ const Footer = () => {
                       test 1
                     </a>
                   </li>
-
-                  <li>
-                    <a
-                      className="text-gray-700 transition hover:text-gray-700/75"
-                      href="#"
-                    >
-                      test 1
-                    </a>
-                  </li>
                 </ul>
               </div>
 
@@ -328,16 +319,18 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="mt-12 border-t border-gray-100 pt-6">
-            <div className="text-center sm:flex sm:justify-center sm:text-left">
-              <p className="text-sm text-gray-500">
-                <span className="block sm:inline">All rights reserved - </span>
+          <div className="mt-12 border-t py-3 border-none bg-teal-600 font-bold">
+            <div className="text-center ">
+              <p className="text-sm text-white">
+                <span className="block sm:inline ">
+                  All Copy Rights reserved -
+                </span>
 
                 <a
-                  className="inline-block text-teal-600 underline transition hover:text-teal-600/75"
+                  className="inline-bloc text-white underline transition hover:text-teal-600/75"
                   href="/"
                 >
-                  ANISAVIOR
+                  AnimalSavior
                 </a>
               </p>
             </div>
