@@ -1,7 +1,7 @@
 const HeroSection = () => {
   return (
     <section className="bg-gray-50">
-      <div className="bg-teal-600 px-4 py-3 text-white text-inherit">
+      <div className="bg-teal-600 px-4 py-3 text-white">
         <p className="text-center text-sm font-medium">
           24/7 Animal Emergency: 1234-567-890
         </p>
@@ -9,7 +9,7 @@ const HeroSection = () => {
       <div className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-[80vh] lg:items-center">
         <div className="mx-auto max-w-xl text-center">
           <h1 className="text-3xl font-extrabold sm:text-5xl">
-            Every Action Matter
+            Every Action Matter <br />
             <strong className="font-extrabold text-teal-600 sm:block">
               A Street Animal Needs You
             </strong>
