@@ -19,20 +19,20 @@ const Header = () => {
               <nav aria-label="Global">
                 <ul className="flex items-center gap-6 text-md">
                   <NavLink to="/">
-                    <a className="text-gray-700 transition hover:text-gray-500/75">
+                    <a className="text-gray-700 transition hover:text-teal-600/75">
                       Home
                     </a>
                   </NavLink>
 
                   <NavLink to="/about">
-                    <a className="text-gray-700 transition hover:text-gray-500/75">
+                    <a className="text-gray-700 transition hover:text-teal-600/75">
                       About
                     </a>
                   </NavLink>
 
                   <NavLink to="/report">
                     <a
-                      className="text-gray-700 transition hover:text-gray-500/75"
+                      className="text-gray-700 transition hover:text-teal-600/75"
                       href="#"
                     >
                       Report
@@ -41,7 +41,7 @@ const Header = () => {
 
                   <NavLink to="/join">
                     <a
-                      className="text-gray-700 transition hover:text-gray-500/75 "
+                      className="text-gray-700 transition hover:text-teal-600/75 "
                       href="#"
                     >
                       Join
@@ -50,7 +50,7 @@ const Header = () => {
 
                   <NavLink to="/contact">
                     <a
-                      className="text-gray-700 transition hover:text-gray-500/75"
+                      className="text-gray-700 transition hover:text-teal-600/75"
                       href="#"
                     >
                       Contact

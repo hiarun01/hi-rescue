@@ -145,7 +145,7 @@ const Footer = () => {
                       to="/"
                       className="text-gray-700 transition hover:text-gray-700/75"
                     >
-                      About AniSavior
+                      About
                     </NavLink>
                   </li>
                   <li>
@@ -158,7 +158,9 @@ const Footer = () => {
                   </li>
 
                   <li>
-                    <a className="text-gray-700 transition hover:text-gray-700/75"></a>
+                    <a className="text-gray-700 transition hover:text-gray-700/75">
+                      Our Misson
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -171,7 +173,7 @@ const Footer = () => {
                 <ul className="mt-8 space-y-4 text-sm">
                   <li>
                     <a className="text-gray-700 transition hover:text-gray-700/75">
-                      test 1
+                      Quick Reporting
                     </a>
                   </li>
 
@@ -180,7 +182,7 @@ const Footer = () => {
                       className="text-gray-700 transition hover:text-gray-700/75"
                       href="#"
                     >
-                      test 1
+                      Volunteer Network
                     </a>
                   </li>
 
@@ -189,7 +191,7 @@ const Footer = () => {
                       className="text-gray-700 transition hover:text-gray-700/75"
                       href="#"
                     >
-                      test 1
+                      24/7 Emergency
                     </a>
                   </li>
                 </ul>
@@ -319,15 +321,15 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="mt-12 border-t py-3 border-none bg-teal-600 font-bold">
+          <div className="mt-12 border-t py-3 border-none font-bold">
             <div className="text-center ">
-              <p className="text-sm text-white">
+              <p className="text-sm text-black">
                 <span className="block sm:inline ">
                   All Copy Rights reserved -
                 </span>
 
                 <a
-                  className="inline-bloc text-white underline transition hover:text-teal-600/75"
+                  className="inline-bloc text-teal-600 transition hover:text-teal-600/75"
                   href="/"
                 >
                   AnimalSavior
