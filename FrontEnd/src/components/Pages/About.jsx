@@ -1,5 +1,13 @@
+import AchivmentSection from "../UI/AchivmentSection";
+import FeturingSection from "../UI/FeturingSection";
+
 const About = () => {
-  return <div></div>;
+  return (
+    <>
+      <FeturingSection />
+      <AchivmentSection />
+    </>
+  );
 };
 
 export default About;
