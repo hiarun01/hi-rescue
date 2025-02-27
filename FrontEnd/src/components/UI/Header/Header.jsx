@@ -1,7 +1,7 @@
 import {useState} from "react";
 import Logo from "./Logo";
 import {Menu, X} from "lucide-react";
-import {Link} from "react-router-dom";
+import {Link, NavLink} from "react-router-dom";
 
 const Header = () => {
   const NavLinks = [
@@ -49,20 +49,24 @@ const Header = () => {
             {/* Desktop Nav */}
             <div className="flex items-center gap-4">
               <div className="hidden sm:flex sm:gap-4">
-                <a
-                  className="rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white shadow-sm"
-                  href="#"
-                >
-                  Login
-                </a>
-
-                <div className="hidden sm:flex ">
+                <NavLink to="/login">
                   <a
-                    className="rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-teal-600"
+                    className="rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white shadow-sm"
                     href="#"
                   >
-                    Register
+                    Login
                   </a>
+                </NavLink>
+
+                <div className="hidden sm:flex ">
+                  <NavLink to="/register">
+                    <a
+                      className="rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-teal-600"
+                      href="#"
+                    >
+                      Register
+                    </a>
+                  </NavLink>
                 </div>
               </div>
               <div className="block md:hidden">
@@ -84,22 +88,26 @@ const Header = () => {
                       </Link>
                     ))}
                     <div className="flex gap-5 justify-center ">
-                      <button>
-                        <a
-                          className="rounded-md bg-white  py-2.5 px-10 text-sm font-medium text-teal-600 shadow-sm"
-                          href="#"
-                        >
-                          Login
-                        </a>
-                      </button>
-                      <button>
-                        <a
-                          className="rounded-md bg-white  py-2.5 px-10 text-sm font-medium text-teal-600 shadow-sm"
-                          href="#"
-                        >
-                          Register
-                        </a>
-                      </button>
+                      <NavLink to="/login">
+                        <button>
+                          <a
+                            className="rounded-md bg-white  py-2.5 px-10 text-sm font-medium text-teal-600 shadow-sm"
+                            href="#"
+                          >
+                            Login
+                          </a>
+                        </button>
+                      </NavLink>
+                      <NavLink to="/register">
+                        <button>
+                          <a
+                            className="rounded-md bg-white  py-2.5 px-10 text-sm font-medium text-teal-600 shadow-sm"
+                            href="#"
+                          >
+                            Register
+                          </a>
+                        </button>
+                      </NavLink>
                     </div>
                   </div>
                 )}

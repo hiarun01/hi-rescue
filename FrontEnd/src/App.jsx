@@ -7,6 +7,8 @@ import About from "./components/Pages/About";
 import Join from "./components/Pages/Join";
 import Contact from "./components/Pages/Contact";
 import Report from "./components/Pages/Report";
+import Login from "./components/Pages/Login";
+import Register from "./components/Pages/Register";
 
 const router = createBrowserRouter([
   {
@@ -33,6 +35,14 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact />,
+      },
+      {
+        path: "/login",
+        element: <Login />,
+      },
+      {
+        path: "/register",
+        element: <Register />,
       },
     ],
   },
