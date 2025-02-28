@@ -12,7 +12,7 @@ const Footer = () => {
                   className="block bg-teal-500 text-white border rounded-full px-5 py-2 font-bold"
                   href="/"
                 >
-                  <span>AniSavior</span>
+                  <span>AnimalSavior</span>
                 </a>
               </div>
 
