@@ -3,6 +3,11 @@ import {NavLink} from "react-router-dom";
 const Footer = () => {
   return (
     <>
+      <div className="bg-teal-600 px-4 py-3 text-white">
+        <p className="text-center text-sm font-medium">
+          24/7 Animal Emergency: 1234-567-890
+        </p>
+      </div>
       <footer className="bg-white">
         <div className="mx-auto max-w-screen-xl px-4 pt-16 pb-6 sm:px-6 lg:px-8 lg:pt-24">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
