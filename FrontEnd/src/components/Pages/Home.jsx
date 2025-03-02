@@ -1,6 +1,7 @@
 import AchivmentSection from "../UI/AchivmentSection";
 import FeturingSection from "../UI/FeturingSection";
 import HeroSection from "../UI/HeroSection";
+import Testimonial from "../UI/Testimonial";
 
 const Home = () => {
   return (
@@ -13,6 +14,8 @@ const Home = () => {
 
       {/* Achivment Section  */}
       <AchivmentSection />
+      {/* Testimonial */}
+      <Testimonial />
     </>
   );
 };

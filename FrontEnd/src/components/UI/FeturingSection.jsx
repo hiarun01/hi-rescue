@@ -4,17 +4,17 @@ const FeturingSection = () => {
     {
       icon: <Send />,
       title: "Quick Reporting",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius.",
+      desc: "Simple incident reporting system with real-time updates and location tracking",
     },
     {
       icon: <Handshake />,
       title: "Volunteer Netwok",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius.",
+      desc: "Join our network of 1000+ volunteers working together to make a difference",
     },
     {
       icon: <Hospital />,
       title: "Professional Care",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie varius.",
+      desc: "Partnered with leading veterinary clinics and animal welfare organizations",
     },
   ];
   return (
@@ -30,14 +30,15 @@ const FeturingSection = () => {
             gets the help they need.
           </p>
         </div>
-        <div className="mt-12">
-          <ul className="grid gap-x-12 divide-y [&>.feature-1]:pl-0 sm:grid-cols-2 sm:gap-y-8 sm:divide-y-0 lg:divide-x lg:grid-cols-3 lg:gap-x-0">
+        <div className="mt-25">
+          <ul className="grid gap-x-12 sm:grid-cols-2 sm:gap-y-12 lg:grid-cols-3 ">
             {features.map((item, idx) => (
               <li
                 key={idx}
-                className={`feature-${idx + 1} space-y-3 py-8 lg:px-12 sm:py-0`}
+                className="
+               lg:py-12 lg:px-5 border-4 border-teal-600 rounded-2xl max-[650px]:gap-y-12 hover:shadow-2xl sm:px-8 sm:py-12 max-[650px]:py-12 max-[650px]:px-8  "
               >
-                <div className="w-12 h-12 border text-teal-600 rounded-full flex items-center justify-center">
+                <div className="w-12 h-12 border-3 text-teal-600 rounded-full flex items-center justify-center mb-5">
                   {item.icon}
                 </div>
                 <h4 className="text-lg text-gray-800 font-bold">
