@@ -36,7 +36,7 @@ const FeturingSection = () => {
               <li
                 key={idx}
                 className="
-               lg:py-12 lg:px-5 border-4 border-teal-600 rounded-2xl max-[650px]:gap-y-12 hover:shadow-2xl sm:px-8 sm:py-12 max-[650px]:py-12 max-[650px]:px-8  "
+               lg:py-12 lg:px-5 border-4 border-teal-700 rounded-2xl max-[650px]:gap-y-12 hover:shadow-2xl sm:px-8 sm:py-12 max-[650px]:py-12 max-[650px]:px-8  "
               >
                 <div className="w-12 h-12 border-3 text-teal-600 rounded-full flex items-center justify-center mb-5">
                   {item.icon}
