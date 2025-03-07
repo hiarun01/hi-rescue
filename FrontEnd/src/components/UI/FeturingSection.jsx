@@ -31,7 +31,7 @@ const FeturingSection = () => {
           </p>
         </div>
         <div className="mt-25">
-          <ul className="grid gap-x-12 sm:grid-cols-2 sm:gap-y-12 lg:grid-cols-3 ">
+          <ul className="grid gap-x-12 sm:grid-cols-2 sm:gap-y-12 lg:grid-cols-3 max-[640px]:gap-y-12 ">
             {features.map((item, idx) => (
               <li
                 key={idx}
