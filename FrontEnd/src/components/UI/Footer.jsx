@@ -17,13 +17,13 @@ const Footer = () => {
                   className="block bg-teal-500 text-white border rounded-full px-5 py-2 font-bold"
                   href="/"
                 >
-                  <span>AnimalSavior</span>
+                  <span>Hi-Rescue</span>
                 </a>
               </div>
 
               <p className="mt-6 max-w-md text-center leading-relaxed text-gray-500 sm:max-w-xs sm:text-left">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Incidunt consequuntur amet culpa cum itaque neque.
+                Every street animal deserves love and care. Join us in giving
+                them a second chance. your action today can save a life.
               </p>
               {/* Socail Links */}
               <ul className="mt-8 flex justify-center gap-6 sm:justify-start md:gap-8">

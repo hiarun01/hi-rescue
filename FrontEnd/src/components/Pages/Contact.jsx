@@ -16,7 +16,7 @@ const Contact = () => {
         </section>
         <div className="max-w-2xl mx-auto shadow-lg">
           <form className="bg-white rounded-xl p-8 mb-20">
-            <div className="grid md:grid-cols-2 gap-6 mb-6">
+            <div className="grid md:grid-cols-1 gap-6 mb-6">
               <div>
                 <label className="block text-gray-700 mb-2" htmlFor="name">
                   Name

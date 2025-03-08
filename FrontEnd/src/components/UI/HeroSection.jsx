@@ -1,3 +1,5 @@
+import {NavLink} from "react-router-dom";
+
 const HeroSection = () => {
   return (
     <section className="bg-gray-50">
@@ -21,19 +23,22 @@ const HeroSection = () => {
           </p>
 
           <div className="mt-8 flex flex-wrap justify-center gap-4">
-            <a
-              className="block w-full rounded-sm bg-teal-600 px-12 py-3 text-sm font-medium text-white shadow-sm hover:bg-teal-700 focus:ring-3 focus:outline-hidden sm:w-auto"
-              href="#"
-            >
-              Report
-            </a>
-
-            <a
-              className="block w-full rounded-sm px-12 py-3 text-sm font-medium text-teal-500 shadow-sm hover:text-teal-600 focus:ring-3 focus:outline-hidden sm:w-auto"
-              href="#"
-            >
-              Join
-            </a>
+            <NavLink to="/report">
+              <a
+                className="block w-full rounded-sm bg-teal-600 px-12 py-3 text-sm font-medium text-white shadow-sm hover:bg-teal-700 focus:ring-3 focus:outline-hidden sm:w-auto"
+                href="#"
+              >
+                Report
+              </a>
+            </NavLink>
+            <NavLink to="/join">
+              <a
+                className="block w-full rounded-sm px-12 py-3 text-sm font-medium text-teal-500 shadow-sm hover:text-teal-600 focus:ring-3 focus:outline-hidden sm:w-auto"
+                href="#"
+              >
+                Join
+              </a>
+            </NavLink>
           </div>
         </div>
       </div>
